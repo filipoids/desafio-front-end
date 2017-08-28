@@ -1,0 +1,81 @@
+* {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-family: Arial;
+}
+
+
+
+/***** GRID *****/
+
+.container {
+	position: relative;
+	overflow: hidden;
+	width: 960px;
+	margin: 0 auto;
+	padding: 0 32px;
+}
+
+/***** /GRID *****/
+
+.header-infoglobo .container {
+	background-color: #004861;
+	padding: 27px 32px;
+	text-align: center;
+}
+
+.header-infoglobo .logo {
+	display: inline-block;
+}
+
+.header-infoglobo .navegacao {
+	float: left;
+}
+
+.header-infoglobo .nav-menu {
+    border-bottom: 4px solid #fff;
+    border-top: 4px solid #fff;
+    display: inline-block;
+    height: 4px;
+    margin-top: 14px;
+    padding: 4px 0;
+    position: relative;
+    width: 24px;
+}
+
+.header-infoglobo .nav-menu:after {
+    background-color: #fff;
+    content: '';
+    height: 4px;
+    left: 0px;
+    position: absolute;
+    top: 4px;
+    width: 24px;
+}
+
+.header-infoglobo .menu-items {
+	display: none;
+}
+
+
+/***** RODAPE ******/
+
+.rodape .container{
+	background-color: #d5e11f;
+	padding: 30px 32px;
+}
+
+.rodape .container .logo-rodape {
+	float: left;
+	margin-left: 30px;
+}
+
+.rodape .container .txt-right {
+	color: #000;
+	float: right;
+	font-size: 10px;
+	text-align: right;
+	text-transform: uppercase;
+}
